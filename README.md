@@ -12,5 +12,7 @@ This script is most useful for those who are using the Prisma Access or zScaler 
 automatically assigned cloudblade managed interfaces to a zone for use with the ZBFW
 
 Examples:
-python3 cg-auto-bind-interface-zone.py --zonename zscaler --interface-match sl-zscaler
-python3 cg-auto-bind-interface-zone.py --zonename prisma --interface-match AUTO-PRISMA_IPSEC-Tunnel
+
+```python3 cg-auto-bind-interface-zone.py --zonename zscaler --interface-match sl-zscaler```
+
+```python3 cg-auto-bind-interface-zone.py --zonename prisma --interface-match AUTO-PRISMA_IPSEC-Tunnel```
